@@ -19,6 +19,8 @@ def hello_world(lang)
         "Hello World"
     end
 end
+
+hello_world("es")
     
 
 # The Grade Assigner
@@ -45,6 +47,8 @@ def assign_grade(num)
     end
 end
 
+assign_grade(79)
+
 # The Pluralizer
 # Write a method named pluralizer that:
 #
@@ -61,6 +65,8 @@ def pluralizer(number, noun)
         "#{number} #{noun}"
     end
 end
+
+pluralizer(4, "cat")
     
 
 # Bonus: Make it handle a few collective nouns like "sheep", "geese", "children", "people" and "species".

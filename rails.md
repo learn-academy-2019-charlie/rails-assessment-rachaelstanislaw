@@ -65,7 +65,7 @@ The public folder contains dumb files that don't interact w/the backend.
 
 ### 6. Write a rails route for a controller called "main" and a page called "game" that takes in a parameter called "guess"
 
-get '/guess' => 'main#game'
+get '/main/:guess' => 'main#game'
 
 ### 7. What are cookies for? How do they work? What is the difference between a session and a cookie?
 
